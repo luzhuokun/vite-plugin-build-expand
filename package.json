@@ -1,0 +1,23 @@
+{
+  "name": "@luzhuokun/vite-plugin-build-expand",
+  "version": "1.0.0",
+  "description": "一个扩展vite功能的插件",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "lzk",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.19",
+    "typescript": "^4.9.5"
+  }
+}
